@@ -19,6 +19,9 @@
       "json": "github:systemjs/plugin-json@^0.1.0",
       "lodash": "npm:lodash@^4.6.1",
       "redux": "npm:redux@^3.3.1",
+      "redux-logger": "npm:redux-logger@^2.6.1",
+      "redux-promise": "npm:redux-promise@^0.5.3",
+      "redux-thunk": "npm:redux-thunk@^2.0.1",
       "text": "github:systemjs/plugin-text@^0.0.7",
       "ts": "github:frankwallis/plugin-typescript@^4.0.5"
     },
