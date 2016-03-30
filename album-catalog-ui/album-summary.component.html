@@ -1,0 +1,20 @@
+<div class="col-md-4">
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <strong ng-bind="vm.album.title"></strong>
+            <div class="pull-right">Downloads <span class="badge" ng-bind="vm.album.downloads"></span></div>
+            <br>
+        </div>
+        <div class="panel-body">
+            <p ng-bind="vm.album.description"></p>
+            <ul class="list-group">
+                <li class="list-group-item">Artist: {{vm.album.artist}}</li>
+                <li class="list-group-item">Year: {{vm.album.year}}</li>
+                <li class="list-group-item">Genre: {{vm.album.genre}}</li>
+                <li class="list-group-item">Country: {{vm.album.country}}</li>
+            </ul>
+            <button type="button" class="btn btn-success pull-right"
+                                  ng-click="vm.edit()">Edit</button>
+        </div>
+    </div>
+</div>
