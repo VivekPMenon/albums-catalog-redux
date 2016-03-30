@@ -1,0 +1,10 @@
+<div class="row" style="margin-top:20%;margin-left:2%">
+    <h2>Recently Updated</h2>
+    <div class="alert alert-warning" ng-if="!vm.recentEditsList.length">        
+        No Updates so far.
+    </div>
+    <div ng-repeat="recentEdits in vm.recentEditsList track by $index" class="alert alert-success">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        {{recentEdits.text}}
+    </div>
+</div>
