@@ -2,7 +2,7 @@
     <div class="panel panel-success">
         <div class="panel-heading">
             <strong ng-bind="vm.album.title"></strong>
-            <div class="pull-right">Downloads <span class="badge" ng-bind="vm.album.downloads"></span></div>
+            <div ng-if="vm.album.downloads" class="pull-right">Downloads <span class="badge" ng-bind="vm.album.downloads"></span></div>
             <br>
         </div>
         <div class="panel-body">
