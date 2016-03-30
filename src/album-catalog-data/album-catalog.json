@@ -1,0 +1,63 @@
+{
+    "recentEdits": [],
+    "currentlyEdited":{},
+    "albumList":[{
+        "id":1,
+        "title" : "Black Album",
+        "artist" : "Metallica", 
+        "country" : "United States",
+        "downloads" : 520,
+        "description" : "A brief description about this album. May be information regarding the rewards, awards and critics received by this album",
+        "year" : "1990",
+        "genre" : "Heavy Metal"  
+    },{
+        "id":2,
+        "title" : "AB3",
+        "artist" : "Alterbridge", 
+        "country" : "United States",
+        "downloads" : 100,
+        "description" : "A brief description about this album. May be information regarding the rewards, awards and critics received by this album",
+        "year" : "2010",
+        "genre" : "Heavy Metal"  
+    }
+    /*,{
+        "id":3,
+        "title" : "Other Side",
+        "artist" : "Godsmack", 
+        "country" : "United States",
+        "downloads" : 200,
+        "description" : "A brief description about this album. May be information regarding the rewards, awards and critics received by this album",
+        "year" : "2007",
+        "genre" : "Alternate"  
+    }
+    ,{
+        "id":4,
+        "title" : "Load",
+        "artist" : "Metallica", 
+        "country" : "United States",
+        "downloads" : 500,
+        "description" : "A brief description about this album. May be information regarding the rewards, awards and critics received by this album",
+        "year" : "1996",
+        "genre" : "Alternate"  
+    },{
+        "id":5,
+        "title" : "Full Circle",
+        "artist" : "Creed", 
+        "country" : "United States",
+        "downloads" : 345,
+        "description" : "A brief description about this album. May be information regarding the rewards, awards and critics received by this album",
+        "year" : "2009",
+        "genre" : "Hard Rock"  
+    },{
+        "id":6,
+        "title" : "Viva La Vida",
+        "artist" : "Coldplay", 
+        "country" : "England",
+        "downloads" : 576,
+        "description" : "A brief description about this album. May be information regarding the rewards, awards and critics received by this album",
+        "year" : "2009",
+        "genre" : "Alternate"  
+    }*/
+    ],
+    "uiState":{}
+}
