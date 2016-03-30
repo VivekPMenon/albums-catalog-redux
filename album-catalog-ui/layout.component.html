@@ -1,0 +1,20 @@
+<div class="container-fluid">
+    <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-md-2">
+            <recent-edits></recent-edits>
+        </div>
+        <div class="col-md-7">
+            <div class="jumbotron">               
+                <p>This is an example to show usage of Redux library in an Angular 1.x application which can be easily transported
+                    in to Angular 2.0 based application as well.</p>
+            </div>
+            <div class="row">
+                <album-summary ng-repeat="album in vm.albumList"
+                                album="album"></album-summary>                  
+            </div>            
+        </div>
+        <div class="col-md-3 sidebar-offcanvas">
+            <edit-album>
+        </div>        
+    </div>    
+</div>
