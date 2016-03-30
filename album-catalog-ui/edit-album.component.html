@@ -1,0 +1,28 @@
+<div class="row" style="margin-top:20%;margin-right:2%">
+    <h2>{{vm.mode === "edit" ?  "Edit" : "Add"}} Album</h2>
+    <div class="form-group">
+        <label for="usr">Title:</label>
+        <input type="text" class="form-control" ng-model="vm.album.title">
+    </div>
+    <div class="form-group">
+        <label for="usr">Artist:</label>
+        <input type="text" class="form-control" ng-model="vm.album.artist">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Year:</label>
+        <input type="text" class="form-control" ng-model="vm.album.year">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Genre:</label>
+        <input type="text" class="form-control" ng-model="vm.album.genre">
+    </div>
+    <!--<div class="form-group">
+        <label for="pwd">Country:</label>
+        <input type="text" class="form-control" ng-model="vm.album.country">
+    </div>-->
+    <div class="form-group">
+        <label for="pwd">Description:</label>
+        <textarea class="form-control" rows="5" ng-model="vm.album.description"></textarea>
+    </div>
+    <button type="submit" class="btn btn-success pull-right" ng-click="vm.submit()">Submit</button>
+</div>
