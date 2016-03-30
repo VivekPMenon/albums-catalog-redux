@@ -2,16 +2,16 @@ System.config({
   baseURL: "/",
   defaultJSExtensions: true,
   transpiler: "typescript",
+  typescriptOptions: {
+    "resolveTypings": true,
+    "sourceMap": false,
+    "inlineSourceMap": false
+  },
   paths: {
     "npm:*": "jspm_packages/npm/*",
     "github:*": "jspm_packages/github/*"
   },
-  typescriptOptions: {
-    resolveTypings: true,
-    //module: "commonJs",    
-    sourceMap: false,
-    inlineSourceMap: false
-  },
+
   packages: {
     "src": {
       "main": "app",
@@ -31,6 +31,9 @@ System.config({
     "json": "github:systemjs/plugin-json@0.1.0",
     "lodash": "npm:lodash@4.6.1",
     "redux": "npm:redux@3.3.1",
+    "redux-logger": "npm:redux-logger@2.6.1",
+    "redux-promise": "npm:redux-promise@0.5.3",
+    "redux-thunk": "npm:redux-thunk@2.0.1",
     "text": "github:systemjs/plugin-text@0.0.7",
     "ts": "github:frankwallis/plugin-typescript@4.0.5",
     "typescript": "npm:typescript@1.8.9",
@@ -72,8 +75,20 @@ System.config({
     "npm:core-util-is@1.0.2": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0"
     },
+    "npm:flux-standard-action@0.6.1": {
+      "lodash.isplainobject": "npm:lodash.isplainobject@3.2.0"
+    },
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
+    },
+    "npm:lodash.isplainobject@3.2.0": {
+      "lodash._basefor": "npm:lodash._basefor@3.0.3",
+      "lodash.isarguments": "npm:lodash.isarguments@3.0.8",
+      "lodash.keysin": "npm:lodash.keysin@3.0.8"
+    },
+    "npm:lodash.keysin@3.0.8": {
+      "lodash.isarguments": "npm:lodash.isarguments@3.0.8",
+      "lodash.isarray": "npm:lodash.isarray@3.0.4"
     },
     "npm:lodash@4.6.1": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
@@ -97,6 +112,9 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "stream-browserify": "npm:stream-browserify@1.0.0",
       "string_decoder": "npm:string_decoder@0.10.31"
+    },
+    "npm:redux-promise@0.5.3": {
+      "flux-standard-action": "npm:flux-standard-action@0.6.1"
     },
     "npm:redux@3.3.1": {
       "lodash": "npm:lodash@4.6.1",
